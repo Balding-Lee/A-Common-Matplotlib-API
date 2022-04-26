@@ -433,7 +433,6 @@ def draw_multi_bar(x_names, ys, labels, total_width=0.8, xlabel=None, ylabel=Non
     :param save_path: str
             保存路径, 如果设置了保存路径, 则保存文件, 否则不保存
             default: None
-    total_width: 柱状图总宽度,
     """
     if total_width <= 0 or total_width > 1:
         raise IndexError('total_width must be in (0, 1], total_width is: %d' % total_width)
