@@ -23,7 +23,7 @@ def draw_texts(plt_instance, xs, ys, height_pos):
         plt_instance.text(x, y + height_pos, y, ha='center', va='bottom')
 
 
-def draw_pie(values, labels, explode_mode=None, explode_degree=0.01, autopct=None,
+def draw_pie(values, labels, explode_mode=None, explode_degree=0.1, autopct=None,
              title=None, save_path=None):
     """
     绘制饼状图
@@ -408,6 +408,7 @@ def draw_multi_bar(x_names, ys, labels, total_width=0.8, xlabel=None, ylabel=Non
             每个柱子代表的含义
     :param total_width: double
             (0, 1], 每个 x 的柱子对应的总宽度
+            default: 0.8
     :param xlabel: str
             横坐标的表示
     :param ylabel: str
