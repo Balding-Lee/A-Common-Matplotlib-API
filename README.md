@@ -8,6 +8,8 @@ numpy = 1.16.5
 
 # 饼状图
 
+调用方法示例：draw_pie(values, labels)
+
 样式图例：
 
 ![pie](https://user-images.githubusercontent.com/49380927/165210670-f8fbb3c1-d74e-4f97-9eb8-e223eaf16b30.png)
@@ -29,6 +31,8 @@ numpy = 1.16.5
 `save_path`: 输入为`字符串`。需要保存的路径以及保存格式。比如 'test.pdf'。如果 save_path 为空则不保存文件。默认为 None。
 
 # 折线图
+
+调用方法示例：draw_single_line(xs, ys)
 
 样式图例：
 
@@ -58,6 +62,8 @@ numpy = 1.16.5
 
 # 柱状图
 
+调用方法示例：draw_single_bar(xs, ys)
+
 样式图例：
 
 ![bar](https://user-images.githubusercontent.com/49380927/165210784-06c565b1-6d2d-4237-aada-f669bd96e917.png)
@@ -85,6 +91,8 @@ numpy = 1.16.5
 `save_path`: 输入为`字符串`。需要保存的路径以及保存格式。比如 'test.pdf'。如果 save_path 为空则不保存文件。默认为 None。
 
 # 带折线图的柱状图
+
+调用方法示例：draw_bar_with_plot(xs, ys)
 
 样式图例：
 
@@ -122,6 +130,8 @@ numpy = 1.16.5
 
 # 直方图
 
+调用方法示例：draw_hist(ys, bins)
+
 样式图例：
 
 ![hist](https://user-images.githubusercontent.com/49380927/165210843-0c2f4994-8cee-4e19-a096-a0786f507901.png)
@@ -151,6 +161,8 @@ numpy = 1.16.5
 `save_path`: 输入为`字符串`。需要保存的路径以及保存格式。比如 'test.pdf'。如果 save_path 为空则不保存文件。默认为 None。
 
 # 带折线图的直方图
+
+调用方法示例：draw_hist_with_plot(ys, bins)
 
 样式图例：
 
@@ -186,6 +198,8 @@ numpy = 1.16.5
 
 # 多折线图
 
+调用方法示例：draw_multi_plot(xs, ys)
+
 样式图例：
 
 ![multi plot](https://user-images.githubusercontent.com/49380927/165210891-d9a462e5-6c3a-49d1-b3a8-5a9561601afc.png)
@@ -209,6 +223,8 @@ numpy = 1.16.5
 `save_path`: 输入为`字符串`。需要保存的路径以及保存格式。比如 'test.pdf'。如果 save_path 为空则不保存文件。默认为 None。
 
 # 多柱状图
+
+调用方法示例：draw_multi_plot(x_names, ys, labels)
 
 样式图例：
 
